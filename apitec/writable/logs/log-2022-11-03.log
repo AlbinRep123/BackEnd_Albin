@@ -1,0 +1,8 @@
+CRITICAL - 2022-11-03 20:40:51 --> Call to undefined method App\Models\EjerciciosModel::finAll
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\API\Ejercicios.php(18): CodeIgniter\Model->__call('finAll', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Ejercicios->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ejercicios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
